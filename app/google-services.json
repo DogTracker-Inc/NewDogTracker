@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "843806922960",
+    "project_id": "newdog-e1084",
+    "storage_bucket": "newdog-e1084.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843806922960:android:f5895d96791eb19a3ee6d5",
+        "android_client_info": {
+          "package_name": "com.example.newdogtracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2mUTNHl54rmGt39EDssxDgIzHOdw4iTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

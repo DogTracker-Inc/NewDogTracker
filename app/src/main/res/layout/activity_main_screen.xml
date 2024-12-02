@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    tools:context=".MainScreenActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="34dp">
+
+    </FrameLayout>
+
+    <EditText
+        android:id="@+id/dogNameInput"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Enter dog's name"
+        android:padding="14dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/dogAgeInput"
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Enter dog's age"
+        android:inputType="number"
+        android:padding="14dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/dogBreedInput"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:hint="Enter dog's breed"
+        android:padding="14dp"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/addDogButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="#870A0A"
+            android:paddingHorizontal="20dp"
+            android:text="Add Dog"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/goToMapButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#870A0A"
+            android:paddingHorizontal="20dp"
+            android:text="Go to Map"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/dogRecyclerView"
+        android:layout_width="385dp"
+        android:layout_height="585dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

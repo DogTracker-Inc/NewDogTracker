@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context="com.example.newdogtracker.HomeActivity">
+
+    <!-- Join Group Button -->
+    <Button
+        android:id="@+id/join"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join Group"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/create"
+        android:layout_alignStart="@+id/create"
+        android:layout_marginTop="111dp" />
+
+    <!-- Create Group Button -->
+    <Button
+        android:id="@+id/create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Group"
+        android:layout_marginTop="82dp"
+        android:layout_below="@id/join"
+        android:layout_centerHorizontal="true" />
+
+    <!-- Go to Main Button -->
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/create"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:text="Go to Main" />
+</RelativeLayout>
