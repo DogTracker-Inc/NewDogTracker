@@ -120,5 +120,5 @@ from the original requirements
 <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
 
 ## App Demo Video
-
+https://github.com/DogTracker-Inc/NewDogTracker/blob/master/videowalkthrough3.mov
 - Embed the YouTube/Vimeo link of your Completed Demo Day prep video
